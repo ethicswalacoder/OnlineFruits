@@ -26,7 +26,7 @@ const Hero = () => {
                               quis numquam itaque eos? Iste, in 
                             corrupti dignissimos at excepturi, perferendis.
                             </p>
-                            <button className="primary-btn">Shop Now</button>
+                            <button className="secondary-btn">Shop Now</button>
                     </div>
                     {/* image section */}
 
