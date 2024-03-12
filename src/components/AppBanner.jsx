@@ -21,7 +21,7 @@ const AppBanner = () => {
         > <div>
 
              <div className="space-y-6 max-w-xl mx-auto">
-            <h1 className="text-2xl text-center sm:text-4xl font-semibold ">Download the app</h1>
+            <h1 data-aos="fade-up"   className="text-2xl text-center sm:text-4xl font-semibold ">Download the app</h1>
             <p data-aos="fade-up" data-aos-delay="300" className="text-center sm:px-20">
            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               quod culpa rerum velit ut quam commodi.
@@ -29,7 +29,7 @@ const AppBanner = () => {
 
              {/* image link */}
 
-             <div className="flex justify-center items-center gap-4">
+             <div data-aos="fade-up" data-aos-delay="500"  className="flex justify-center items-center gap-4">
                 <a href="#">
                     <img src={PlayStoreImg} alt="playStore" className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]" />
                 </a>
